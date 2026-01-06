@@ -8,21 +8,17 @@
 </head>
 <body>
     <h1 class="titulo">Lista de tareas</h1>
-    <div class="contenedor-tareas">
-        <ul>
-            <li>
-                <input type="checkbox" id="task1">
-                <label for="task1">Tarea 1</label>
-            </li>
-                        <li>
-                <input type="checkbox" id="task2">
-                <label for="task2">Tarea 2</label>
-            </li>
-                <li>
-                <input type="checkbox" id="task3">
-                <label for="task3">Tarea 3</label>
-            </li>
-        </ul>
-    </div>
+    <div class="contenedor-principal">
+        <div class="contenedor-agregar-tarea">
+            <p class="nombre-tarea">Inserte una nueva tarea:</p>
+            <input class="input-tarea" type="text" id="nombre-tarea" placeholder="Nueva tarea..."> 
+            <button class="boton-agregar" id="boton-agregar">Agregar tarea</button>
+        </div>
+        <div class="contenedor-tareas">
+            <ul>
+            </ul>
+        </div>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
